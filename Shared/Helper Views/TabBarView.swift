@@ -10,7 +10,7 @@ import SwiftUI
 struct TabBarView: View {
     var body: some View {
         TabView {
-            Text("Jack")
+            PastRunsView()
                 .tabItem {
                     Label("Menu", systemImage: "list.dash")
                 }
